@@ -11,44 +11,37 @@ This repository presents a full lifecycle machine learning solution: from data e
 🧮 Dataset
 
 Source: Public “Student Performance” dataset (commonly used for education analytics projects).
-
 Records: 1,000
-
 Features (Columns): 8
-
 Key Features:
-
 gender — Male or Female
-
 race_ethnicity — Student’s ethnic group (A–E)
-
 parental_level_of_education — Education level of parents
-
 lunch — Type of lunch received (standard or free/reduced)
-
 test_preparation_course — Whether the student completed a test prep course
-
 math_score — Math exam score (numeric)
-
 reading_score — Reading exam score (numeric)
-
 writing_score — Writing exam score (numeric)
-
 Target Variable: Typically, you can predict either
-
 an average score (mean of the three subject scores), or
-
 focus on one subject (e.g., math_score) as the target.
 
 ## 🧰 Project Structure  
-├── app.py # Web application entry-point
-├── requirements.txt # Python dependencies
-├── setup.py # Packaging / installation file
-├── notebook/ # Jupyter notebooks for EDA & model experimentation
-├── src/ # Source code: data processing, model training, prediction
-├── artifacts/ # Stored artifacts: model.pkl, preprocessor.pkl, logs, etc.
-├── templates/ # HTML templates for the web app
-└── README.md # This document
+├── app.py   # Web application entry-point
+
+├── requirements.txt   # Python dependencies
+
+├── setup.py    # Packaging / installation file
+
+├── notebook/     # Jupyter notebooks for EDA & model experimentation
+
+├── src/     # Source code: data processing, model training, prediction
+
+├── artifacts/    # Stored artifacts: model.pkl, preprocessor.pkl, logs, etc.
+
+├── templates/    # HTML templates for the web app
+
+└── README.md    # This document
 
 markdown
 Copy code
