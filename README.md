@@ -8,13 +8,37 @@ This repository presents a full lifecycle machine learning solution: from data e
 - By building a predictive model and wrapping it in a web interface, this project enables easy exploration of how changing input factors might impact expected performance.  
 - Demonstrates good ML engineering practices: modular code, artifacts folder, web front-end, and packaging.
 
-## 🧮 Dataset  
-> *Specify here the dataset you used (source, description, number of records, key features).*  
-- Source: [insert dataset source]  
-- Records: ~ [insert number]  
-- Key features include:  
-  - `gender`, `parental_level_of_education`, `lunch`, `test_preparation_course`, `hours_studied_per_week`, etc.  
-- Target variable: `final_score` (or `grade`)  
+🧮 Dataset
+
+Source: Public “Student Performance” dataset (commonly used for education analytics projects).
+
+Records: 1,000
+
+Features (Columns): 8
+
+Key Features:
+
+gender — Male or Female
+
+race_ethnicity — Student’s ethnic group (A–E)
+
+parental_level_of_education — Education level of parents
+
+lunch — Type of lunch received (standard or free/reduced)
+
+test_preparation_course — Whether the student completed a test prep course
+
+math_score — Math exam score (numeric)
+
+reading_score — Reading exam score (numeric)
+
+writing_score — Writing exam score (numeric)
+
+Target Variable: Typically, you can predict either
+
+an average score (mean of the three subject scores), or
+
+focus on one subject (e.g., math_score) as the target.
 
 ## 🧰 Project Structure  
 ├── app.py # Web application entry-point
